@@ -47,3 +47,18 @@ button {
 button:hover {
 	background-color: #4CAF50;
 }
+
+.error {
+	margin: 50px auto;
+	padding: 20px;
+	width: 400px;
+}
+
+.error h1 {
+	font-size: 1.6rem;
+}
+
+.error span {
+	font-size: 3rem;
+	font-style: italic;
+}

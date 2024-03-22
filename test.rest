@@ -2,17 +2,16 @@
 ### Variables
 @url = http://localhost:3001
 
+### Find Joke by Id
+GET {{url}}/api/v1/joke/65fdc66400456f461ba643a2
+
+
 ### Get random joke
-
 GET {{url}}/api/v1/random
-
 
 ### Add joke
 
 POST {{url}}/api/v1/new
 Content-Type: application/json
 
-{
-  "joke": "This is a joke",
-  "punchline": "This is a punchline"
-} 
+{ "joke": "What do you call a bear with no teeth?", "punchline": "A gummy bear!" }
